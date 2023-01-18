@@ -2,7 +2,7 @@ from django.http import JsonResponse
 
 import openai
 
-openai.api_key = "API-KEY"
+openai.api_key = "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"
 
 def ask_question(request):
     
