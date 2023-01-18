@@ -1,0 +1,80 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+.nav__continer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: rgb(49, 49, 179);
+}
+
+.nav__continer h1 {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.container-answer {
+  border: none;
+  height: 50vh;
+}
+
+.answer-area {
+  font-family: roboto;
+  background: #343541;
+  max-height: 80vh;
+  padding: 15px;
+  color: white;
+  margin-bottom: 30px;
+  white-space: pre-wrap;
+  height: calc(90vh - 50px);
+  overflow-y: scroll;
+}
+
+
+.question-form {
+  display: flex;
+  width: 95%;
+  position: fixed;
+  bottom: 20px;
+  border: none;
+  justify-content: space-evenly;
+}
+
+.question-form input[type="text"] {
+  width: 80%;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  padding: 15px;
+  font-size: 1.2rem;
+  background-color: #8e8ea0;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: rgb(11, 11, 212);
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  width: 10%;
+  cursor: pointer;
+}
